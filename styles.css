@@ -1,0 +1,208 @@
+html {
+    color: rgb(85, 82, 82);
+    
+    }
+    
+    
+      
+    }
+    
+    h2{
+        font: 1.5em sans-serif;
+        padding: 1rem 0;
+        margin-bottom:0.5rem ;
+        
+    }
+    
+    h3{
+        font: 1em sans-serif;
+        padding:0;
+        margin-bottom:0.5rem ;
+      
+      
+    }
+    h4{
+        font: 1em sans-serif;
+        padding:0;
+        margin-bottom:0.5rem ;
+       font-style:italic ;
+    }
+    
+    
+    section + section{
+        margin-top: 1rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .profile img{
+        border: 5px dotted #FACD48;
+        border-radius: 800px;
+        width: 10rem;
+        height: 10rem;
+        margin-top:3rem ;
+    }
+    .profile{
+        
+        text-align: center;
+        background-color: #58595B;
+    }
+    .profile .bar {
+        background-color: rgb(214, 207, 207);
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 30px;
+    }
+    .profile .name{
+        display: inline-block;
+        text-align: center;
+        background: #d7a306;
+        font-size: 30px;
+        line-height: 50px;
+        position: relative;
+        top: -45px;
+        border-radius: 10px;
+        padding: 5px 30px;
+    }
+    p{
+        text-align: center;
+        padding: 1rem;
+        
+        margin-bottom: 1rem;
+    }
+    
+    
+    .Skills img{
+    
+        border: 5px dotted #FACD48;
+        border-radius: 10px;
+        width: 1.5rem;
+        height: 1.5rem;
+      
+    }
+    
+     .tech {
+        display:grid;
+        grid-template-columns: 50% 50%;
+    list-style: none ;
+    
+    }
+    .sk {
+        text-align: right;
+        margin-top: 10px;
+        padding-bottom: 5px;
+       
+    }
+    .tech .skills .container {
+      
+        width: 100%;
+        height: 5px;
+        background-color: rgb(238, 228, 228);
+        margin-bottom: 18px;
+      
+     
+    }
+    
+    
+    .java {
+    
+        background: linear-gradient(to right, rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 90%;
+      
+    }
+    
+    .css {
+    
+        background: linear-gradient(to right, rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 90%;
+    }
+    
+    .html1 {
+    
+        background: linear-gradient(to right, rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 20%;
+    }
+    
+    
+    .redu {
+    
+        background: linear-gradient(to right, rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 70%;
+    }
+    
+    .dep {
+    
+        background: linear-gradient(to right,  rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 60%;
+    }
+    
+    .mongo {
+    
+        background: linear-gradient(to right, rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 50%;
+    
+    }
+    
+    .react {
+    
+        background: linear-gradient(to right,  rgb(223, 209, 16), rgb(250, 244, 244));
+        width: 50%;
+    }
+    
+    
+    
+    .resume{
+        display:inline-grid;
+        grid-template-columns: 50%  1fr ;
+        grid-gap: 4rem;
+        
+       padding: 1rem;
+       margin: 1rem;
+       text-align: left;
+    }
+    
+    .resume .column{
+        
+        border-right: 2px solid grey;
+        padding-right: 40px;
+        
+    }
+    .resume .column1{
+        
+        border-right: 0px;
+        padding-right: 40px;
+       
+    }
+    
+    .list_view{
+        list-style: none ;
+       
+    }
+    li + li {
+        margin-top: 7px;
+        
+      }
+    body {
+        padding: 5rem 10rem;
+        background-color: white;
+    
+    }
+    .paratext{
+        font-size: 10px;
+        text-align: left;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    #paraalign{
+        text-align: left;
+    }
+.paratext1{
+    text-align: left;
+}
+    
+    
